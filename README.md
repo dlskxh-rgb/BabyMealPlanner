@@ -8,6 +8,11 @@ BabyMealPlanner helps parents keep track of their child's daily meals, manage av
 
 The application works directly in the browser without requiring an account or a server.
 
+## 🌐 Live Demo
+
+🚀 Try the live demo:
+https://dlskxh-rgb.github.io/BabyMealPlanner/
+
 ## ✨ Features
 
 - 📝 Track daily meals
