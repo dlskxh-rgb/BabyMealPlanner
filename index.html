@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BabyMealPlanner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>🍽️ BabyMealPlanner</h1>
+    <p>Simple meal planning for parents and children</p>
+  </header>
+
+  <main>
+
+    <section class="card">
+      <h2>📝 Today's Meals</h2>
+
+      <div class="input-group">
+        <input
+          type="text"
+          id="foodInput"
+          placeholder="Example: Chicken and vegetable porridge"
+        >
+        <button id="addFoodBtn">Add</button>
+      </div>
+
+      <ul id="foodList"></ul>
+    </section>
+
+
+    <section class="card">
+      <h2>⚠️ Allergy Notes</h2>
+
+      <textarea
+        id="allergyMemo"
+        placeholder="Example: Avoid milk and eggs"
+      ></textarea>
+
+      <button id="saveMemoBtn">Save Notes</button>
+      <p id="saveMessage"></p>
+    </section>
+
+
+    <section class="card">
+      <h2>🥕 Available Ingredients</h2>
+
+      <div class="input-group">
+        <input
+          type="text"
+          id="ingredientInput"
+          placeholder="Example: Carrot"
+        >
+        <button id="addIngredientBtn">Add</button>
+      </div>
+
+      <ul id="ingredientList"></ul>
+    </section>
+
+
+    <section class="card">
+      <h2>💡 Today's Meal Idea</h2>
+
+      <button id="recommendBtn">
+        Get a Meal Idea
+      </button>
+
+      <div id="recommendation">
+        Click the button to get a meal idea!
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer>
+    <p>Made with ❤️ for parents</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
